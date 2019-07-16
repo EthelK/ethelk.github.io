@@ -2,22 +2,22 @@
 
 ---
 
-### Category Name 1 
+### 
 
-[Ethereum](/sample_page)
+[Ethereum Value Analysis](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](https://github.com/EthelK/Social-Investigator)
+[Sentiment Scraper](https://github.com/EthelK/Social-Investigator)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Applying Network theories to Twitter: does the content impact the structure](http://example.com/)
+<img src="images/networkDesign?raw=true"/>
 
 ---
 
-### Category Name 2
+### Archives
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
