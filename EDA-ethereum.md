@@ -72,26 +72,59 @@ Importing the Ethereum logo
 
 Plotting the values (closing prices and volumes) across time
 
-
-<img src="images/visuali.png.png?raw=true"/>
-
+<img src="images/visuali.png?raw=true"/>
 
 
+### 2. Comparing the Bitcoin and Ethereum value fluctuations
 
-### 2. Assess assumptions on which statistical inference will be based
+This part includes:
+- importing and formatting bitcoin data 
+- merging the two dataset on their index 
+- visualising the open price values fluctuations of the bitcoin and ethereum 
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+_importing bitcoin data and creating a new dataframe with the two currencies_
 
-### 3. Support the selection of appropriate statistical tools and techniques
+<img src="images/code_df_compare.png?raw=true"/>
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/df_compare_eth_bit.png?raw=true"/>
 
-### 4. Provide a basis for further data collection through surveys or experiments
+_visualising the two cryptocurrencies fluctuations across time_
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+<img src="images/vis_bit_eth_code.png?raw=true"/>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<img src="images/vis_bit_eth_2018_2018.png?raw=true"/>
+
+_creating a matrix correlation of the volums and closing price values_ 
+
+<img src="images/matrix_corr_code.png?raw=true"/>
+
+<img src="images/matric_corr_vis.png?raw=true"/>
+
+
+### 3. Time Series Analysis 
+
+Ths part includes: 
+- applying time-series analysis to our data 
+- finding out if we have stationary data
+
+**What is a moving average?**
+One of the oldest and simplest trading strategies that exist is the one that uses a moving average of the price (or returns) timeseries to proxy the recent trend of the price.
+
+The idea is quite simple, yet powerful; if we use a (say) 100-day moving average of our price time-series, then a significant portion of the daily price noise will have been “averaged-out”. Thus, we can can observe more closely the longer-term behaviour of the asset.
+
+Let us, again, calculate the rolling simple moving averages (SMA) of these three timeseries as follows. Remember, again, that when calculating the MM days SMA, the first M−1M−1 are not valid, as MM prices are required for the first moving average data point.
+
+<img src="images/rolling_mean_std_code.png?raw=true"/>
+
+<img src="images/rolling_mean_std.png?raw=true"/>
+
+
+
+
+
+
+
+
+
+
+
