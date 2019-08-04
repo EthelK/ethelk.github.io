@@ -8,10 +8,10 @@ The Ethereum is the second most popular cryptocurreny after the Bitcoin. It has 
 
 This time, we will solely look at Ethereum as a cryptocurrency and its market value. 
 
-Our main assumption is: ***The Ethereum value can be predicted with historical values, other cryptocurrencies'indexes or other markets***
+Our main assumption is: **The Ethereum value can be predicted with historical values, other cryptocurrencies'indexes or other markets**
 
 
-***Previous Analysis***
+**Previous Analysis**
 
 Most of the existing analysis on cryptocurrencies focus on the Bitcoin. 
 
@@ -30,12 +30,12 @@ https://nicholastsmith.wordpress.com/2017/11/13/cryptocurrency-price-prediction-
 https://qz.com/1052656/bitcoin-price-google-trends-can-help-you-figure-where-bitcoins-price-is-headed/
 
 
-***Approach*** 
+**Approach**
 
 This project will focus on time-series analysis. [TO COMPLETE] 
 After choosing at least three different approaches for predicting the Ethereum price, I will analyze those and compare their accuracy
 
-***Data***
+**Data**
 
 Our data come from http://coinmarketcap.com. 
 
@@ -47,15 +47,36 @@ While there are many options to explore in the crypto world when analyzing predi
 
 
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Exploring the past value fluctuations
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+This part includes: 
+- data collection directly from our source (coinmarketcap.com)
+- data cleaning (format and columns names) 
+- data visualisation (overview of closing prices and volumes fluctuations) 
 
-```python
-if (isAwesome){
-  return true
-}
-```
+_Import libraries and retrieve data_
+
+<img src="images/import_lib_2.png?raw=true"/>
+
+<img src="images/head.png?raw=true"/>
+
+Renaming the columns 
+
+<img src="images/rename_col.png?raw=true"/>
+
+_overview of the closing prices and volumes flucuations since 2015_
+
+Importing the Ethereum logo 
+
+<img src="images/logo.png?raw=true"/>
+
+Plotting the values (closing prices and volumes) across time
+
+
+<img src="images/visuali.png.png?raw=true"/>
+
+
+
 
 ### 2. Assess assumptions on which statistical inference will be based
 
