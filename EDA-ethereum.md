@@ -107,17 +107,46 @@ Ths part includes:
 - applying time-series analysis to our data 
 - finding out if we have stationary data
 
-**What is a moving average?**
-One of the oldest and simplest trading strategies that exist is the one that uses a moving average of the price (or returns) timeseries to proxy the recent trend of the price.
+**What is a moving average analysis?**
+The moving average analysis smooths out the price data and create an average price for a set timeframe. The objective is to reduce the price noise and observe more easily the behavior of a value on the market. 
 
-The idea is quite simple, yet powerful; if we use a (say) 100-day moving average of our price time-series, then a significant portion of the daily price noise will have been “averaged-out”. Thus, we can can observe more closely the longer-term behaviour of the asset.
-
-Let us, again, calculate the rolling simple moving averages (SMA) of these three timeseries as follows. Remember, again, that when calculating the MM days SMA, the first M−1M−1 are not valid, as MM prices are required for the first moving average data point.
+I use two pandas functions for this purpose: pd.rolling_mean and pd.rolling_std. I will then compare in a chart the orginal Opening price of the Ethereum value, its rolling average and its rolling standard deviation. 
 
 <img src="images/rolling_mean_std_code.png?raw=true"/>
 
 <img src="images/rolling_mean_std.png?raw=true"/>
 
+**Because there is no constance over time** we might have non-stationary data (while the visual approach can give us some clues, we will do additional statistical tests)
+
+**What is a stationary series?** 
+
+A stationary series has a mean, variance and covariance that does not vary with time. Statistical models need the series data to be stationary to make precise and releavant analysis. 
+
+**The Augmented Dickey-Fuller test** 
+
+Null hypothesis test is: The series has a unit root. If we fail to rejet the H-null, it means that the series is non-stationary. 
+
+<img src="images/results_1_code.png?raw=true"/>
+
+<img src="images/results_1.png?raw=true"/>
+
+The Test Statistic value is greater than the Critical value: we cannot reject the null hypothesis, meaning that we need to do additional transformations to make it stationary.
+
+**Log Transformation** 
+
+One way to stabilise a series is to apply a log transform 
+
+<img src="images/Screen Shot 2019-08-05 at 5.51.17 pm.png?raw=true"/>
+
+<img src="images/Screen Shot 2019-08-05 at 5.51.21 pm.png?raw=true"/>
+
+Test the results again with the DFT
+
+<img src="images/Screen Shot 2019-08-05 at 5.54.40 pm.png?raw=true"/>
+
+<img src="images/Screen Shot 2019-08-05 at 5.54.45 pm.png?raw=true"/>
+
+Even after a lok transformation, the null hypothesis cannot be rejected with a confidence of 95%. 
 
 
 
