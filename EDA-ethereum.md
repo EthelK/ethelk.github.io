@@ -132,21 +132,31 @@ Null hypothesis test is: The series has a unit root. If we fail to rejet the H-n
 
 The Test Statistic value is greater than the Critical value: we cannot reject the null hypothesis, meaning that we need to do additional transformations to make it stationary.
 
-**Log Transformation** 
+**KPSS (Kwiatkowski-Phillips-Schmidt-Shin) Test** 
 
-One way to stabilise a series is to apply a log transform 
+In this case, the Null Hypothesis is that the data is trend stationary. It thus means that, this time, if we cannot reject the H-null, the data is stationary. 
 
-<img src="images/Screen Shot 2019-08-05 at 5.51.17 pm.png?raw=true"/>
+<img src="images/Screen Shot 2019-08-05 at 9.33.06 pm.png?raw=true"/> 
 
-<img src="images/Screen Shot 2019-08-05 at 5.51.21 pm.png?raw=true"/>
+<img src="images/Screen Shot 2019-08-05 at 9.33.13 pm.png?raw=true"/>
 
-Test the results again with the DFT
+The test statistic is greater than the critical value, we can thus reject the null hypothesis. This confirms that the series is not stationary.
 
-<img src="images/Screen Shot 2019-08-05 at 5.54.40 pm.png?raw=true"/>
+**Differencing** 
 
-<img src="images/Screen Shot 2019-08-05 at 5.54.45 pm.png?raw=true"/>
+Differencing can help stabilize the mean of the time series by removing changes in the level of a time series, and so eliminating (or reducing) trend and seasonality. (— Page 215, "Forecasting: principles and practice".) 
 
-Even after a lok transformation, the null hypothesis cannot be rejected with a confidence of 95%. 
+Differencing is performed by subtracting the previous observation from the current observation:
+
+difference(t) = observation(t) - observation(t-1)
+
+<img src="images/Screen Shot 2019-08-06 at 9.07.00 am.png?raw=true"/>
+
+The new ADF test results show us that the Test Statistic valye is lower than the critical values. We can reject the null hypothesis with 90%, 95% and 99% of confidence. It means that the series data is stationary. 
+
+<img src="images/Screen Shot 2019-08-06 at 9.07.05 am.png?raw=true"/>
+
+
 
 
 
