@@ -2,7 +2,7 @@
 
 This project was originally created in February 2018 and has been updated several times in 2018 and 2019. 
 
-You can see the full Jupyter Notebook (here)[https://hub.gke.mybinder.org/user/ethelk-ethereum-and-time-series-hqbkrq62/notebooks/Ethereum%20-%20EDA%20and%20Time-Series.ipynb]. 
+You can see the full Jupyter Notebook [here](https://hub.gke.mybinder.org/user/ethelk-ethereum-and-time-series-hqbkrq62/notebooks/Ethereum%20-%20EDA%20and%20Time-Series.ipynb). 
 
 **Project description:** 
 
