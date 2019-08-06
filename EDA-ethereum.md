@@ -32,19 +32,14 @@ https://qz.com/1052656/bitcoin-price-google-trends-can-help-you-figure-where-bit
 
 **Approach**
 
-This project will focus on time-series analysis. [TO COMPLETE] 
-After choosing at least three different approaches for predicting the Ethereum price, I will analyze those and compare their accuracy
+This project will focus on time-series analysis. It includes: 
+- Exploring the data and comparing it to the Bitcoin fluctuations 
+- Assessing if the data is stationary or not
+- Making the series stationary 
 
 **Data**
 
 Our data come from http://coinmarketcap.com. 
-
-
-I will need to be careful and transparent with the assumptions
-As I have daily new data for the Ethereum, I will need to fix a timeframe from the beginning for each prediction. If possible (if weekly or daily prediction for example), I can take that opportunity to iterate the model and improve it
-
-While there are many options to explore in the crypto world when analyzing predictions -- because of the recent massive interest and thus research about it but also the ease of access to data --, I will focus in this project on a comparison with Google Trends and time-series analysis.
-
 
 
 ### 1. Exploring the past value fluctuations
@@ -155,6 +150,8 @@ difference(t) = observation(t) - observation(t-1)
 The new ADF test results show us that the Test Statistic valye is lower than the critical values. We can reject the null hypothesis with 90%, 95% and 99% of confidence. It means that the series data is stationary. 
 
 <img src="images/Screen Shot 2019-08-06 at 9.07.05 am.png?raw=true"/>
+
+
 
 
 
