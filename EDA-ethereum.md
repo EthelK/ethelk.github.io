@@ -2,6 +2,8 @@
 
 This project was originally created in February 2018 and has been updated several times in 2018 and 2019. 
 
+You can see the full Jupyter Notebook (here)[https://hub.gke.mybinder.org/user/ethelk-ethereum-and-time-series-hqbkrq62/notebooks/Ethereum%20-%20EDA%20and%20Time-Series.ipynb]. 
+
 **Project description:** 
 
 The Ethereum is the second most popular cryptocurreny after the Bitcoin. It has gain a lot of attention last year. But while some see it as another potential investment, others predict it to be a more sophisticated version of its predecessor. The reason why leads in the general use of this technolgoies: Bitcoin is used a currency and Ethereum as "a ledger technology that companies are using to build new programs" (source: https://hackernoon.com/the-primary-difference-between-ethereum-and-bitcoin-a-beginners-guide-8a892afb7a4). In addition of feeding the aspirations of a large crowd, Ethereum drew the attention of a group called 'The Enterprise Ethereum Alliance', which is super-group of "Fortune 500 companies that have all agreed to work together to learn and build upon Ethereum’s blockchain technology — otherwise referred to as “smart contract” technology".
