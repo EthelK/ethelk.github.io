@@ -371,7 +371,7 @@ VIF, checks for multicollinearity. Generally, VIF values higher than 10 induce f
 investigation. However, VIFs are all lower than 3, which leads to the assumption that there is no
 multicollinearity issues in the models.
 
-**Results
+**Results**
 
 Results of this paper are mixed. On one hand, they show statistical significance of several
 variables on the dependent variables and confirmed a probable impact of content-related
@@ -563,7 +563,7 @@ July 2011. Web. 31 July 2014.
 Web. 20 July 2014.
 
 [38]Correlation: How to judge successful social media marketing. Networdplus.com. 14 March
-2012. Web. 30 July 2014.
+2012.Web. 30 July 2014.
 
 [39]Darwell, B. SumAll helps businesses see correlation between social activity and sales.
 Insidefacebook.com. 28 August 2012. Web. 29 July 2014.
