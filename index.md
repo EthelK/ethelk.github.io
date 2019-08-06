@@ -1,23 +1,19 @@
-## Portfolio
+## Portfolio 
+
+
+[Ethereum: EDA & Time-series](/EDA-ethereum)
+Exploring the Ethereum values over time and comparing it to the Bitcoin fluctuations
+Assessing and modifying the stationarity of the series
+
+<img src="images/EWMA_log_trans.png?raw=true"/>
 
 ---
+[Network theories applied to Twitter](/twitter-network-theories)
+Extracts from my paper "Brands on Twitter: Impact of the type of information on the typology of the network generated"
 
-### 
-
-[Ethereum Value Analysis](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Sentiment Scraper](https://github.com/EthelK/Social-Investigator)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Screen Shot 2019-08-06 at 10.02.47 pm.png?raw=true"/>
 
 ---
-[Applying Network theories to Twitter: does the content impact the structure](http://example.com/)
-<img src="images/networkDesign?raw=true"/>
-
----
-
-### Archives
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
