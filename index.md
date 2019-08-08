@@ -17,13 +17,10 @@ Extracts from my paper "Brands on Twitter: Impact of the type of information on 
 
 ---
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+**[The Social Investigator](https://ethelk.github.io/socialinvestigator)**
 
----
+This code creates and updates a Google Sheet with relevant tweets and a basic sentiment analysis of the tweet. 
+
 
 
 
