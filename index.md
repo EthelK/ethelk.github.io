@@ -21,8 +21,7 @@ Extracts from my paper "Brands on Twitter: Impact of the type of information on 
 
 This code creates and updates a Google Sheet with relevant tweets and a basic sentiment analysis of the tweet. 
 
-
-
+<img src="images/Screen Shot 2019-08-08 at 9.23.09 pm.png?raw=true"/>
 
 
 ---
