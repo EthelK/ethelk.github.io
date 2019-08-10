@@ -10,9 +10,6 @@ The Ethereum is the second most popular cryptocurreny after the Bitcoin. It has 
 
 This time, we will solely look at Ethereum as a cryptocurrency and its market value. 
 
-Our main assumption is: **The Ethereum value can be predicted with historical values, other cryptocurrencies'indexes or other markets**
-
-
 **Previous Analysis**
 
 Most of the existing analysis on cryptocurrencies focus on the Bitcoin. 
