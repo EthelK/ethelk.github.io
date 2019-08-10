@@ -1,6 +1,6 @@
 This project creates and updates a Google Sheet with relevant tweets and a basic sentiment analysis of this tweet.
 
-[Here](https://hub.gke.mybinder.org/user/ethelk-social-investigator-wlb7w3pj/notebooks/Social_Investigator.ipynb) is a full Jupyter Notebook of the project. 
+[Here](https://mybinder.org/v2/gh/EthelK/Social-Investigator/master) is a full Jupyter Notebook of the project. 
 
 **The problem**
 
